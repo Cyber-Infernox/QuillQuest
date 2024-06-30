@@ -9,7 +9,7 @@ dotenv.config();
 // express app
 const app = express();
 
-// for sending data as json to server
+// middleware for sending data as json to server
 app.use(express.json());
 
 // connect to database
@@ -31,6 +31,7 @@ app.get("/ping", (req, res) => {
 
 app.use("/api/auth", authRoutes);
 
+// middleware for error handling
 app.use((err, req, res, next) => {
   const statusCode = err.statusCode || 500;
   const message = err.message || "Internal Server Error";
