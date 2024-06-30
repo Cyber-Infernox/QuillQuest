@@ -1,0 +1,17 @@
+{
+  "name": "quillquest-server",
+  "version": "1.0.0",
+  "description": "Your gateway to a world of stories, insights and creative expression...",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Sayon",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
