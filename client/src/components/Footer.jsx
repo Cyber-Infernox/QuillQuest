@@ -7,7 +7,6 @@ import {
   BsGithub,
   BsDribbble,
 } from "react-icons/bs";
-
 export default function FooterCom() {
   return (
     <Footer container className="border border-t-8 border-teal-500">
@@ -40,7 +39,7 @@ export default function FooterCom() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  QuillQuest Blog
+                  QuillQuest
                 </Footer.Link>
               </Footer.LinkGroup>
             </div>
@@ -70,7 +69,7 @@ export default function FooterCom() {
         <div className="w-full sm:flex sm:items-center sm:justify-between">
           <Footer.Copyright
             href="#"
-            by="QuillQuest blog"
+            by="Sahand's blog"
             year={new Date().getFullYear()}
           />
           <div className="flex gap-6 sm:mt-0 mt-4 sm:justify-center">
